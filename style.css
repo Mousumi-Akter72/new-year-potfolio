@@ -4,10 +4,11 @@ body {
 
 .banner {
     background-image: url('./images/banner/banner3.png');
-    height: 100vh;
+    height: 110vh;
 
 }
-.header{
+
+.header {
     display: flex;
     flex-direction: column;
     padding: 120px;
@@ -42,4 +43,30 @@ body {
     line-height: 23px;
     text-align: right;
     color: #005FAC;
+}
+
+.info {
+    margin: 100px 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.info-text{
+    margin-left: 50px;
+}
+
+.info-title {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 47px;
+}
+
+.info-para {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #444343;
+}
+.points{
+margin-left: 20px;
 }
